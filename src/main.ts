@@ -1,3 +1,4 @@
+import './style.css';
 import { Color, Viewer, GeoJsonDataSource } from 'cesium';
 import 'cesium/Build/Cesium/Widgets/widgets.css';
 
