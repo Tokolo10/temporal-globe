@@ -5,18 +5,27 @@ html, body {
   overflow: hidden;
 }
 
-#app {
+#root {
   display: flex;
   height: 100vh;
 }
 
-#sidebar {
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
   width: 80px;
   flex-shrink: 0;
   background: #5c515b;
   color: #e6cfe4;
 }
 
-#cesiumContainer {
+.globe-view {
   flex: 1;
+}
+
+.cesium-widget-credits{
+    display:none !important;
 }
